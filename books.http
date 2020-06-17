@@ -1,0 +1,23 @@
+###
+GET http://localhost:8080/books
+
+###
+GET http://localhost:8080/books/1
+
+###
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "title": "Start with Why",
+  "author": "Simon Sinek"
+}
+
+###
+PATCH http://localhost:8080/books/1
+Content-Type: application/json
+
+{
+  "title": "Start with how",
+  "author": "Simon Sinek"
+}
