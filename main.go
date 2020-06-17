@@ -12,6 +12,7 @@ func main() {
 	router := gin.Default()
 
 	models.ConnectDB()
+	models.ConnectMongoDB()
 
 	router.GET("/", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{"data": "hello world"})
