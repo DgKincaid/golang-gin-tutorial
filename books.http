@@ -9,7 +9,7 @@ POST http://localhost:8080/books
 Content-Type: application/json
 
 {
-  "title": "Start with Why",
+  "title": "Start with Nom",
   "author": "Simon Sinek"
 }
 

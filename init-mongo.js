@@ -2,11 +2,11 @@
 db.createUser(
   {
     user: 'admin',
-    pwd: 'ZY+YCzCMlMUB0TdALcNLSQQbGGSCV7hA=',
+    pwd: 'pwd123',
     roles: [
       {
         role: 'readWrite',
-        db: 'test'
+        db: 'gomongo'
       }
     ]
   }
